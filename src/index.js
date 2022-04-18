@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDom from "react-dom";
+//import App from "./App.js";
+//import ClassCom from "./ClassCom.js";
+//import FunctionCom from "./FunctionCom";
+//import Practice1 from "./Practice1";
+import ToDoList from "./ToDoList";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//ReactDom.render(<App/>,document.getElementById("root"));
+//ReactDom.render(<ClassCom name="React"/>,document.getElementById("root"));
+//ReactDom.render(<FunctionCom name="React"/>,document.getElementById("root"));
+//ReactDom.render(<Practice1 />, document.getElementById("root"));
+ReactDom.render(<ToDoList />, document.getElementById("root"));
