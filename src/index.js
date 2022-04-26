@@ -4,10 +4,11 @@ import ReactDom from "react-dom";
 //import ClassCom from "./ClassCom.js";
 //import FunctionCom from "./FunctionCom";
 //import Practice1 from "./Practice1";
-import ToDoList from "./ToDoList";
+//import ToDoList from "./ToDoList";
+import SinglePageApp from "./SinglePageApp";
 
 //ReactDom.render(<App/>,document.getElementById("root"));
 //ReactDom.render(<ClassCom name="React"/>,document.getElementById("root"));
 //ReactDom.render(<FunctionCom name="React"/>,document.getElementById("root"));
 //ReactDom.render(<Practice1 />, document.getElementById("root"));
-ReactDom.render(<ToDoList />, document.getElementById("root"));
+ReactDom.render(<SinglePageApp />, document.getElementById("root"));
