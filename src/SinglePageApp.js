@@ -1,14 +1,16 @@
 import React from "react";
 import{BrowserRouter,Routes,Route} from "react-router-dom";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Header from "./Header";
-import Navigation from "./Navigation";
+import Header from "./common/Header";
+import Navigation from "./common/Navigation";
 import FunctionCom from "./FunctionCom";
 import ClassCom from "./ClassCom";
 import Practice1 from "./Practice1";
 import ToDoList from "./ToDoList";
 import App from "./App";
-import Footer from "./Footer";
+import Footer from "./common/Footer";
+import ShowModal from "./ShowModal";
+import Digitalclock from "./component/DigitalClock";
 
 
 const SinglePageApp = () => {
@@ -26,6 +28,8 @@ const SinglePageApp = () => {
                   <Route path='/todolist' element = {<ToDoList/>}/>
                   <Route path='/functioncom' element = {<FunctionCom/>}/>
                   <Route path='/classcom' element = {<ClassCom/>}/>
+                  <Route path='/showmodal' element = {<ShowModal/>}/>
+                  <Route path='/digitalclock' element = {<Digitalclock/>}/>
                 </Routes>
               </div>
               <div className='col-sm-12 col-lg-2 bg-warning'>Right Aside</div>

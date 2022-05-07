@@ -13,6 +13,8 @@ const Navigation = () =>{
                     <Nav.Link><Link to="/todolist" className='btn btn-outline-warning'>TO Do</Link></Nav.Link>
                     <Nav.Link><Link to="/functioncom" className='btn btn-outline-warning'>Functional Comp</Link></Nav.Link>
                     <Nav.Link><Link to="/practice" className='btn btn-outline-warning'>Practice 1</Link></Nav.Link>
+                    <Nav.Link><Link to="/showmodal" className='btn btn-outline-warning'>Show Modal</Link></Nav.Link>
+                    <Nav.Link><Link to="/digitalclock" className='btn btn-outline-warning'>Digital Clock</Link></Nav.Link>
                     </Navbar>
                 </div>
             </div>
