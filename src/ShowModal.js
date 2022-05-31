@@ -8,10 +8,10 @@ const ShowModal = () => {
     
     return(
         <React.Fragment>
-           <button onClick ={() => {setOpenModal(true);}}>
+           <button className='btn btn-outline-warning' onClick ={() => {setOpenModal(true);}}>
                 Open Modal
             </button>
-            {openModal && (<Modal1 closeModal={setOpenModal}/>) }
+            {openModal && (<Modal1 props={setOpenModal}/>) }
         </React.Fragment>
     )
 }
