@@ -16,6 +16,8 @@ const Navigation = () =>{
                     <Nav.Link><Link to="/practice" className='btn btn-outline-warning'>Practice 1</Link></Nav.Link>
                     <Nav.Link><Link to="/showmodal" className='btn btn-outline-warning'>Show Modal</Link></Nav.Link>
                     <Nav.Link><Link to="/digitalclock" className='btn btn-outline-warning'>Digital Clock</Link></Nav.Link>
+                    <Nav.Link><Link to="/currencyconverter" className='btn btn-outline-warning'>Currency Converter</Link></Nav.Link>
+                    <Nav.Link><Link to="/themeselector" className='btn btn-outline-warning'>Theme Switcher</Link></Nav.Link>
                     </Navbar>
                 </div>
             </div>

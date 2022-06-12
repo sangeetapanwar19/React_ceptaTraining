@@ -5,7 +5,7 @@
     background-color: #352176;
     padding: 20px;
 }
-h1{
+.currencyPanel h1{
     color: #352176;
     margin-bottom: 20px;
 }
@@ -46,7 +46,7 @@ margin: 0 auto;
 .switch svg{
     margin: 5px;
 }
-button{
+.result button{
 width: 100px;
 font-weight: bold;
 font-size: 20px;
@@ -56,11 +56,11 @@ cursor: pointer;
 background-color: #f2c010;
 border-radius: 5px;
 }
-p,h3,h2,.switch{
+.currencyPanel p,.currencyPanel h3,.currencyPanel h2,.switch{
 /*color: #f2c010;*/
 color: #fff;
 margin-top: 15px;
 }
-p{
+.currencyPanel p{
 font-size: 30px;
 }
