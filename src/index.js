@@ -11,7 +11,8 @@ import SinglePageApp from "./SinglePageApp";
 //import ShowModal from "./ShowModal";
 //import Digitalclock from "./component/DigitalClock";
 //import CurrencyConverter from "./component/CurrencyConverter";
-//import ThemeSelector from "./component/ThemeSelector";
+//import ThemeContext from "./component/ThemeSwitcher/ThemeContext";
+//import WeatherApp from "./component/WeatherApp";
 
 
 
@@ -22,4 +23,5 @@ import SinglePageApp from "./SinglePageApp";
 ReactDom.render(<SinglePageApp />, document.getElementById("root"));
 //ReactDom.render(<ShowModal />, document.getElementById("root"));
 //ReactDom.render(<Digitalclock />, document.getElementById("root"));
-//ReactDom.render(<ThemeSelector />, document.getElementById("root"));
+//ReactDom.render(<ThemeContext />, document.getElementById("root"));
+//ReactDom.render(<WeatherApp />, document.getElementById("root"));
