@@ -13,7 +13,7 @@ import ShowModal from "./ShowModal";
 import Digitalclock from "./component/DigitalClock";
 import CurrencyConverter from "./component/CurrencyConverter";
 import ThemeSelector from "./component/ThemeSwitcher/ThemeSelector";
-import WeatherApp from "./component/WeatherApp";
+import WeatherApp from "./component/Weather/WeatherApp";
 const SinglePageApp = () => {
     return(
         <BrowserRouter>

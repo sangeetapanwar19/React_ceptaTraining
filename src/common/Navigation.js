@@ -18,7 +18,7 @@ const Navigation = () =>{
                     <Nav.Link><Link to="/digitalclock" className='btn btn-outline-warning'>Digital Clock</Link></Nav.Link>
                     <Nav.Link><Link to="/currencyconverter" className='btn btn-outline-warning'>Currency Converter</Link></Nav.Link>
                     <Nav.Link><Link to="/themeselector" className='btn btn-outline-warning'>Theme Switcher</Link></Nav.Link>
-                    <Nav.Link><Link to="/weatherapp" className='btn btn-outline-warning'>Theme Switcher</Link></Nav.Link>
+                    <Nav.Link><Link to="/weatherapp" className='btn btn-outline-warning'>Weather App</Link></Nav.Link>
                     </Navbar>
                 </div>
             </div>
