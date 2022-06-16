@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState,useContext } from 'react';
-import { ThemeContext } from '../ThemeSwitcher/ThemeContext';
-const ThemeSelector = (props) => {
+import { ThemeContext } from './ThemeContext';
+const ThemeConsumer = (props) => {
 const colordata = useContext(ThemeContext);
    
     const [effectiveColor,setEffectiveColor] = useState('');
@@ -9,9 +9,6 @@ const colordata = useContext(ThemeContext);
     return(
         <div style={{'background' : effectiveColor}} className="theme-panel">
             <h1>Theme Selector</h1>
-            <style>
-                
-                </style>
             <div className="theme-palette">
             {colordata && colordata.map((temp,index) => {
                  return( <span key={temp.colorname + index} className={`Palette-${temp.colorname}`} onClick = {()=> setEffectiveColor(temp.color)} style={{'background' : temp.color}}>{temp.colorlabel}</span>)
@@ -23,4 +20,4 @@ const colordata = useContext(ThemeContext);
     )
 }
 
-export default ThemeSelector;
+export default ThemeConsumer;

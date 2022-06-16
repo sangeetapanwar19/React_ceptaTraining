@@ -20,4 +20,4 @@ import { createContext } from "react";
 
 const ThemeContext = createContext(null);
 
-export {colorPalette,ThemeContext}
+export  {colorPalette,ThemeContext}

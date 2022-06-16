@@ -1,6 +1,3 @@
-#root{
-    overflow: hidden;
-}
 .clock{
     display: flex;
     align-items: center;

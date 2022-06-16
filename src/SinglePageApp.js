@@ -12,8 +12,9 @@ import Footer from "./common/Footer";
 import ShowModal from "./ShowModal";
 import Digitalclock from "./component/DigitalClock";
 import CurrencyConverter from "./component/CurrencyConverter";
-import ThemeSelector from "./component/ThemeSwitcher/ThemeSelector";
 import WeatherApp from "./component/Weather/WeatherApp";
+import ThemeProvider  from "./component/ThemeSwitcher/ThemeProvider";
+import './css/common.css';
 const SinglePageApp = () => {
     return(
         <BrowserRouter>
@@ -32,7 +33,7 @@ const SinglePageApp = () => {
                   <Route path='/showmodal' element = {<ShowModal/>}/>
                   <Route path='/digitalclock' element = {<Digitalclock/>}/>
                   <Route path='/currencyconverter' element = {<CurrencyConverter/>}/>
-                  <Route path='/themeselector' element = {<ThemeSelector/>}/>
+                  <Route path='/themeselector' element = {<ThemeProvider/>}/>
                   <Route path='/weatherapp' element = {<WeatherApp/>}/>                 
                 </Routes>
               </div>
