@@ -14,6 +14,7 @@ import Digitalclock from "./component/DigitalClock";
 import CurrencyConverter from "./component/CurrencyConverter";
 import WeatherApp from "./component/Weather/WeatherApp";
 import ThemeProvider  from "./component/ThemeSwitcher/ThemeProvider";
+import Calculator from "./component/EmiCalculator/Calculator"
 import './css/common.css';
 const SinglePageApp = () => {
     return(
@@ -34,7 +35,8 @@ const SinglePageApp = () => {
                   <Route path='/digitalclock' element = {<Digitalclock/>}/>
                   <Route path='/currencyconverter' element = {<CurrencyConverter/>}/>
                   <Route path='/themeselector' element = {<ThemeProvider/>}/>
-                  <Route path='/weatherapp' element = {<WeatherApp/>}/>                 
+                  <Route path='/weatherapp' element = {<WeatherApp/>}/>  
+                  <Route path='/calculator' element = {<Calculator/>}/>                                                 
                 </Routes>
               </div>
               <div className='col-sm-12 col-lg-2 bg-warning'>Right Aside</div>

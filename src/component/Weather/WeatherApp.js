@@ -17,7 +17,7 @@ const WeatherApp = () => {
     })
 
     const handleTemprature = () => {
-        axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c412e32f8374f6a87ce341d095a159f6`)
+        axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e356fa72d1eddafd60fab8f755efc020`)
             .then((response) => {
                 setweatherData({
                     description: response.data.weather[0].description,
